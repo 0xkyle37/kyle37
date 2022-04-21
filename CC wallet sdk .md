@@ -37,6 +37,24 @@ SDK由两部分组成，分别是钱包工具类方法及交易构造类方法�
     - get transactionversion
     - get specversion
     - get tx fee
+### Workflow
+1. 导入助记词或私钥，生成钱包对象
+
+2. 调用创建钱包获得钱包对象wallet用于签名
+
+3. 调用接口获取构造参数(nonce, specVersion, transVersion )
+
+4. Metadata的获取根据接口判断
+
+5. 调用创建Tx获得tx对象用于构造交易
+
+6. 通过tx对象创建交易t
+
+7. 用钱包Sign方法对交易t的内容(获取需要签名内容)签名
+
+8. 将签名方公钥(获取公钥)和签名内容放入GetTx的方法中
+
+9. 交易t调用获取Tx获得SendTx
 
 ### Ecosystem Fit
 
@@ -54,6 +72,12 @@ SDK由两部分组成，分别是钱包工具类方法及交易构造类方法�
 - Received more than 10 million block chain technology funding from the Chinese government. 
 - Developed ComingChat software
 - Develop the COMFUTURE NFT marketplace
+
+
+## Development Roadmap :nut_and_bolt: 
+### milestone 1
+* **Estimated Duration:** 4 weeks 
+* **Costs:** 50 000 DAI
 
 | Number | Deliverable            | Specification                                                |
 | -----: | ---------------------- | ------------------------------------------------------------ |
