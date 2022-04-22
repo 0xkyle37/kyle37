@@ -59,6 +59,7 @@ SDK由两部分组成，分别是钱包工具类方法及交易构造类方法�
 ### Ecosystem Fit
 
 毫无疑问，区块链世界正在由技术驱动型过度至应用驱动型的时代进程中，在这个过程中，越来越多的非底层技术团队带着卓越的想法开始进驻web3世界，而区块链的绝大多数操作都是通过向链上发送交易进行的。这时候，市场上急需一个完整的钱包SDK可供使用，来降低他们实现具体应用的门槛，与此同时加速波卡生态的繁荣
+There is no doubt that the blockchain world is in the process of transitioning from technology-driven to application-driven. The vast majority of operations on the chain are performed by sending transactions onto the chain. At this time, a complete wallet SDK is urgently needed in the market to lower the threshold for them to realize specific applications, and at the same time accelerate the prosperity of the Polkadot ecosystem
 
 ## Team :busts_in_silhouette:
 * **Members:** Guanghua Guo, Guiguang Zhang, Zhangjie GU, Ke Li, Yunhui Du and other PolkaX team members.
@@ -77,7 +78,7 @@ SDK由两部分组成，分别是钱包工具类方法及交易构造类方法�
 ## Development Roadmap :nut_and_bolt: 
 ### milestone 1
 * **Estimated Duration:** 4 weeks 
-* **Costs:** 50 000 DAI
+* **Costs:** 20 000 DAI
 
 | Number | Deliverable            | Specification                                                |
 | -----: | ---------------------- | ------------------------------------------------------------ |
